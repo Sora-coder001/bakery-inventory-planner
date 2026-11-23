@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+planner.log
+
+# client demand figures stay out of the repository
+planner_data/live_forecast.csv
+planner_output/
+index.html
+dashboard.html

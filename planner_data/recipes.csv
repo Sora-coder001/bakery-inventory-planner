@@ -1,0 +1,96 @@
+item,ingredient_id,qty_per_item,usage_unit
+Alfajor,RM-BP05,0.18,oz
+Alfajor,RM-DY05,0.71,oz
+Alfajor,RM-FL01,0.71,oz
+Alfajor,RM-FL04,0.88,oz
+Alfajor,RM-FL11,0.53,oz
+Alfajor,RM-SF02,0.88,oz
+Almojabana,RM-DY06,0.25,count
+Almojabana,RM-DY09,2.5,oz
+Almojabana,RM-FL03,1.5,oz
+Almojabana,RM-FL08,0.5,oz
+Americano,RM-ES01,0.65,oz
+Americano,RM-PK04,1.0,piece
+Americano,RM-PK06,1.0,piece
+Arepa,RM-DY05,0.25,oz
+Arepa,RM-DY09,1.5,oz
+Arepa,RM-FL03,2.5,oz
+Beef Empanada,RM-MP03,2.5,oz
+Beef Empanada,RM-PB02,1.0,disc
+Beef Empanada,RM-SP08,0.5,fl oz
+Beef Empanada,RM-VG11,1.0,oz
+Beef Puff Pastry,RM-MP03,3.5,oz
+Beef Puff Pastry,RM-PB01,1.0,sheet
+Beef Puff Pastry,RM-SP02,0.05,oz
+Beef Puff Pastry,RM-VG01,0.5,oz
+Bombon,RM-ES01,0.65,oz
+Bombon,RM-PK04,1.0,piece
+Bombon,RM-PK06,1.0,piece
+Bombon,RM-SF02,1.0,oz
+Breakfast sandwich,RM-DY06,1.0,count
+Breakfast sandwich,RM-DY11,1.0,oz
+Breakfast sandwich,RM-MP06,2.0,strip
+Breakfast sandwich,RM-PB05,1.0,piece
+Capuccino,RM-DY01,6.0,fl oz
+Capuccino,RM-ES01,0.65,oz
+Capuccino,RM-PK04,1.0,piece
+Capuccino,RM-PK06,1.0,piece
+Chicken Empanada,RM-MP02,2.5,oz
+Chicken Empanada,RM-PB02,1.0,disc
+Chicken Empanada,RM-SP08,0.5,fl oz
+Chicken Empanada,RM-VG11,1.0,oz
+Chicken Puff Pastry,RM-MP02,3.5,oz
+Chicken Puff Pastry,RM-PB01,1.0,sheet
+Chicken Puff Pastry,RM-VG01,0.5,oz
+Chicken Puff Pastry,RM-VG08,0.5,oz
+Chicken Salad,RM-MP01,4.0,oz
+Chicken Salad,RM-PB03,1.0,piece
+Chicken Salad,RM-SC01,1.0,fl oz
+Chicken Salad,RM-VG13,0.5,stalk
+Cinnamon Roll,RM-BA03,0.25,oz
+Cinnamon Roll,RM-DY07,1.0,oz
+Cinnamon Roll,RM-FL01,2.5,oz
+Cinnamon Roll,RM-FL10,1.0,oz
+"Empanada Cheesecake, onion & Cilantro",RM-DY09,2.0,oz
+"Empanada Cheesecake, onion & Cilantro",RM-PB02,1.0,disc
+"Empanada Cheesecake, onion & Cilantro",RM-VG01,0.75,oz
+"Empanada Cheesecake, onion & Cilantro",RM-VG04,0.15,bunch
+Espresso,RM-ES01,0.65,oz
+Espresso,RM-ES03,1.0,piece
+Flavored Water,RM-BV04,1.0,bottle
+Guava Paste Dulce de Leche,RM-DY06,0.05,count
+Guava Paste Dulce de Leche,RM-FL11,0.2,oz
+Guava Paste Dulce de Leche,RM-PB01,2.0,sheet
+Guava Paste Dulce de Leche,RM-PK02,1.0,piece
+Guava Paste Dulce de Leche,RM-SF01,2.5,oz
+Guava Paste Dulce de Leche,RM-SF02,2.5,oz
+Ham & Cheese Sandwich,RM-DY10,1.5,oz
+Ham & Cheese Sandwich,RM-MP04,3.5,oz
+Ham & Cheese Sandwich,RM-PB03,1.0,piece
+Ham & Cheese Sandwich,RM-SC01,0.5,fl oz
+Ham & Cheese Sandwich,RM-VG05,1.5,oz
+Ham & Cheese Sandwich,RM-VG14,1.0,oz
+Hot Tea,RM-BV02,1.0,bag
+Hot Tea,RM-PK04,1.0,piece
+Hot Tea,RM-PK06,1.0,piece
+Juice,RM-BV06,1.0,bottle
+Latte,RM-DY01,8.5,fl oz
+Latte,RM-ES01,0.65,oz
+Latte,RM-PK04,1.0,piece
+Latte,RM-PK06,1.0,piece
+Nutella pastry,RM-PB05,1.0,piece
+Nutella pastry,RM-SF02,1.5,oz
+Pan Tumaca,RM-PB04,1.0,piece
+Pan Tumaca,RM-SP09,0.5,fl oz
+Pan Tumaca,RM-VG03,0.1,oz
+Pan Tumaca,RM-VG05,3.0,oz
+Pan de Bono,RM-DY06,0.25,count
+Pan de Bono,RM-DY09,2.5,oz
+Pan de Bono,RM-FL03,0.5,oz
+Pan de Bono,RM-FL09,1.8,oz
+Soda,RM-BV07,1.0,can
+Turkey & Cheese Sandwich,RM-DY12,1.5,oz
+Turkey & Cheese Sandwich,RM-MP05,3.5,oz
+Turkey & Cheese Sandwich,RM-PB03,1.0,piece
+Turkey & Cheese Sandwich,RM-SC02,0.5,fl oz
+Water,RM-BV03,1.0,bottle

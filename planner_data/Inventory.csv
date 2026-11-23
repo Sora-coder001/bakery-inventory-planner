@@ -1,0 +1,138 @@
+unique_id,ingredient_name,ingredient_group,shelf_life_days,cost_per_unit_usd,unit,lead_time_days,replenishment_model,pack_size,pack_qty,supplier_channel,current_stock
+RM-FL01,All-purpose flour,Flours & Baking,180,,lb,2,ROP,50 lb bag,50.0,Supermarket / Wholesale,0.4
+RM-FL02,Bread flour,Flours & Baking,180,,lb,2,ROP,50 lb bag,50.0,Supermarket / Wholesale,61.1
+RM-FL03,Pre-cooked corn flour,Flours & Baking,180,,lb,3,ROP,10 x 2.2 lb case,22.0,Supermarket / Amazon,39.1
+RM-FL04,Cornstarch,Flours & Baking,365,,oz,2,ROP,24 x 16 oz case,384.0,Supermarket / Wholesale,4.1
+RM-FL05,Baking powder,Flours & Baking,180,,oz,2,ROP,5 lb tub,80.0,Supermarket / Amazon,35.2
+RM-FL06,Active dry yeast,Flours & Baking,120,,oz,2,ROP,2 lb vacuum bag,32.0,Supermarket / Amazon,38.5
+RM-FL07,Salt,Flours & Baking,730,,lb,1,REDLINE,25 lb bag,25.0,Supermarket / Wholesale,35.2
+RM-FL08,Granulated sugar,Flours & Baking,730,,lb,1,ROP,50 lb bag,50.0,Supermarket / Wholesale,55.2
+RM-FL09,Cassava starch,Flours & Baking,180,,lb,3,ROP,10 x 2 lb case,20.0,Supermarket / Amazon,12.8
+RM-FL10,Brown sugar,Flours & Baking,365,,lb,2,ROP,25 lb bag,25.0,Supermarket / Wholesale,1.1
+RM-FL11,Powdered sugar,Flours & Baking,365,,lb,2,ROP,25 lb bag,25.0,Supermarket / Wholesale,0.1
+RM-FL12,Honey,Flours & Baking,730,,oz,3,ROP,5 lb jug,80.0,Supermarket / Amazon,108.6
+RM-FL13,Vanilla extract,Flours & Baking,365,,fl oz,4,ROP,32 fl oz bottle,32.0,Amazon / Wholesale,54.6
+RM-PB01,Puff pastry dough,Pastry & Bakery,90,,sheet,2,ROP,20 sheet case,20.0,Supermarket / Wholesale,3.0
+RM-PB02,Empanada dough,Pastry & Bakery,90,,disc,2,ROP,24 pack case,24.0,Supermarket / Wholesale,5.0
+RM-PB03,Ciabatta bread,Pastry & Bakery,3,,piece,1,P,24 count bag,24.0,Supermarket / Bakery,2.0
+RM-PB04,Italian bread,Pastry & Bakery,3,,piece,1,P,12 loaf bag,12.0,Supermarket / Bakery,17.0
+RM-PB05,Croissants,Pastry & Bakery,3,,piece,1,P,36 count box,36.0,Supermarket / Wholesale,19.0
+RM-PB06,Flour tortillas,Pastry & Bakery,30,,piece,1,ROP,12 x 10 ct case,120.0,Supermarket,93.0
+RM-BA01,Chocolate chips,Baking Additions,180,,lb,2,ROP,25 lb box,25.0,Supermarket / Wholesale,9.1
+RM-BA02,Cocoa powder,Baking Additions,365,,lb,3,ROP,5 lb tub,5.0,Supermarket / Amazon,4.8
+RM-BA03,Ground cinnamon,Baking Additions,365,,oz,3,ROP,5 lb jug,80.0,Supermarket / Amazon,0.6
+RM-BA04,Walnuts,Baking Additions,90,,lb,2,ROP,5 lb bag,5.0,Supermarket / Wholesale,6.4
+RM-DY01,Whole milk,Dairy & Refrig,10,,fl oz,1,P,1 gal jug (128 fl oz),128.0,Supermarket,212.7
+RM-DY02,Lactose-free milk,Dairy & Refrig,14,,fl oz,1,P,0.5 gal jug (64 fl oz),64.0,Supermarket,57.7
+RM-DY03,Almond milk,Dairy & Refrig,90,,fl oz,2,ROP,12 x 32 fl oz case,384.0,Supermarket / Amazon,314.9
+RM-DY04,Heavy cream,Dairy & Refrig,14,,fl oz,1,P,0.5 gal jug (64 fl oz),64.0,Supermarket,75.0
+RM-DY05,Butter (unsalted),Dairy & Refrig,60,,lb,1,ROP,36 x 1 lb case,36.0,Supermarket / Wholesale,0.4
+RM-DY06,Eggs,Dairy & Refrig,28,,count,1,P,15 dozen case,180.0,Supermarket / Wholesale,3.0
+RM-DY07,Cream cheese,Dairy & Refrig,45,,lb,2,ROP,10 x 3 lb case,30.0,Supermarket / Wholesale,0.1
+RM-DY08,Plain yogurt,Dairy & Refrig,14,,oz,1,P,4 x 32 oz case,128.0,Supermarket,56.1
+RM-DY09,Fresh cheese (Queso Fresco),Dairy & Refrig,14,,oz,2,P,10 lb case,160.0,Supermarket / Specialty,13.4
+RM-DY10,Mozzarella cheese,Dairy & Refrig,30,,lb,1,ROP,4 x 5 lb shredded,20.0,Supermarket / Wholesale,0.9
+RM-DY11,Cheddar cheese,Dairy & Refrig,45,,lb,1,ROP,4 x 5 lb sliced,20.0,Supermarket / Wholesale,0.3
+RM-DY12,Provolone cheese,Dairy & Refrig,45,,lb,1,ROP,4 x 5 lb sliced,20.0,Supermarket / Wholesale,0.0
+RM-DY13,Swiss cheese,Dairy & Refrig,45,,lb,1,ROP,4 x 5 lb sliced,20.0,Supermarket / Wholesale,22.5
+RM-MP01,Cooked diced chicken,Meats & Proteins,180,,oz,2,ROP,2 x 5 lb frozen bag,160.0,Supermarket / Wholesale,19.7
+RM-MP02,Cooked shredded chicken,Meats & Proteins,180,,oz,2,ROP,2 x 5 lb frozen bag,160.0,Supermarket / Wholesale,27.9
+RM-MP03,Cooked ground beef,Meats & Proteins,180,,oz,2,ROP,2 x 5 lb frozen bag,160.0,Supermarket / Wholesale,4.4
+RM-MP04,Ham (sliced),Meats & Proteins,14,,oz,1,P,6 x 2 lb case,192.0,Supermarket / Wholesale,34.1
+RM-MP05,Sliced turkey,Meats & Proteins,14,,oz,1,P,6 x 2 lb case,192.0,Supermarket / Wholesale,8.0
+RM-MP06,Cooked bacon,Meats & Proteins,30,,strip,2,ROP,300 count box,300.0,Supermarket / Wholesale,6.0
+RM-MP07,Chicken bouillon powder,Meats & Proteins,365,,oz,3,ROP,5 lb tub,80.0,Supermarket / Amazon,111.4
+RM-SF01,Guava paste,Sweet Fillings,365,,oz,2,ROP,24 x 14 oz case,336.0,Supermarket / Wholesale,10.6
+RM-SF02,Dulce de leche,Sweet Fillings,180,,oz,2,ROP,12 x 15 oz case,180.0,Supermarket / Wholesale,14.5
+RM-FR01,Apples,Fresh Fruits,14,,piece,1,P,40 lb carton,100.0,Supermarket,51.0
+RM-FR02,Strawberries,Fresh Fruits,4,,lb,1,P,8 x 1 lb flat,8.0,Supermarket,4.4
+RM-FR03,Pineapple,Fresh Fruits,7,,piece,1,P,6 count case,6.0,Supermarket,4.0
+RM-FR04,Passion fruit (Pulp),Fresh Fruits,180,,oz,3,ROP,12 x 14 oz frozen,168.0,Supermarket / Specialty,260.1
+RM-FR05,Lemons,Fresh Fruits,14,,piece,1,P,30 count bag,30.0,Supermarket,45.0
+RM-FR06,Limes,Fresh Fruits,14,,piece,1,P,40 count bag,40.0,Supermarket,20.0
+RM-FR07,Oranges,Fresh Fruits,14,,piece,1,P,40 lb carton,80.0,Supermarket,30.0
+RM-FR08,Seasonal fruits,Fresh Fruits,3,,lb,1,P,As specified,10.0,Supermarket,4.5
+RM-VG01,White onions,Vegetables & Herbs,21,,lb,1,P,25 lb bag,25.0,Supermarket,0.6
+RM-VG02,Red onions,Vegetables & Herbs,21,,lb,1,P,25 lb bag,25.0,Supermarket,29.9
+RM-VG03,Garlic,Vegetables & Herbs,28,,oz,1,ROP,5 lb peeled tub,80.0,Supermarket,91.9
+RM-VG04,Cilantro,Vegetables & Herbs,5,,bunch,1,P,24 bunch box,24.0,Supermarket,1.0
+RM-VG05,Tomatoes,Vegetables & Herbs,5,,lb,1,P,25 lb box,25.0,Supermarket,0.2
+RM-VG06,Diced tomatoes,Vegetables & Herbs,365,,oz,2,ROP,6 x #10 can case,612.0,Supermarket / Wholesale,513.2
+RM-VG07,Cherry tomatoes,Vegetables & Herbs,7,,pt,1,P,12 x 1 pt case,12.0,Supermarket,18.0
+RM-VG08,Red bell peppers,Vegetables & Herbs,7,,lb,1,P,11 lb case,11.0,Supermarket,0.1
+RM-VG09,Green bell peppers,Vegetables & Herbs,10,,lb,1,P,25 lb case,25.0,Supermarket,41.2
+RM-VG10,Carrots,Vegetables & Herbs,28,,lb,1,P,25 lb bag,25.0,Supermarket,28.9
+RM-VG11,White potatoes,Vegetables & Herbs,30,,lb,1,ROP,50 lb bag,50.0,Supermarket,0.9
+RM-VG12,Corn (kernel),Vegetables & Herbs,180,,lb,2,ROP,12 x 2 lb frozen,24.0,Supermarket / Wholesale,21.1
+RM-VG13,Celery,Vegetables & Herbs,14,,stalk,1,P,30 count case,30.0,Supermarket,1.0
+RM-VG14,Lettuce,Vegetables & Herbs,5,,head,1,P,24 head case,24.0,Supermarket,25.0
+RM-VG15,Spinach,Vegetables & Herbs,5,,lb,1,P,4 x 2.5 lb bag,10.0,Supermarket,11.0
+RM-VG16,Guascas,Vegetables & Herbs,365,,oz,4,ROP,100 g dried pack,3.5,Specialty / Amazon,5.3
+RM-SC01,Mayonnaise,Sauces & Dressings,120,,fl oz,2,ROP,4 x 1 gal case,512.0,Supermarket / Wholesale,3.0
+RM-SC02,Mustard,Sauces & Dressings,180,,fl oz,2,ROP,4 x 1 gal case,512.0,Supermarket / Wholesale,0.5
+RM-SC03,Ketchup,Sauces & Dressings,180,,fl oz,2,ROP,6 x #10 can / jugs,684.0,Supermarket / Wholesale,672.3
+RM-SC04,Enchilada sauce,Sauces & Dressings,365,,oz,3,ROP,12 x 28 oz case,336.0,Supermarket / Amazon,503.1
+RM-SC05,Chipotle sauce,Sauces & Dressings,365,,oz,3,ROP,12 x 7 oz can case,84.0,Supermarket / Amazon,118.6
+RM-SC06,Capers,Sauces & Dressings,180,,oz,3,ROP,6 x 32 oz jar case,192.0,Supermarket / Amazon,227.5
+RM-BV01,Whole coffee beans,Coffee & Tea,60,,oz,4,ROP,5 lb bag,80.0,Local Roaster / Amazon,129.0
+RM-BV02,Tea (Assorted),Coffee & Tea,365,,bag,3,ROP,100 count box,100.0,Amazon,134.0
+RM-BV03,Bottled water,Beverages,365,,bottle,1,ROP,40 bottles/case,40.0,Supermarket,12.0
+RM-BV04,Flavored water,Beverages,180,,bottle,1,ROP,24 bottles/case,24.0,Supermarket,8.0
+RM-BV05,Energy drinks,Beverages,365,,can,1,ROP,24 cans/case,24.0,Supermarket / Wholesale,17.0
+RM-BV06,Juices,Beverages,90,,bottle,1,ROP,24 bottles/case,24.0,Supermarket,42.0
+RM-BV07,Soft drinks (sodas),Beverages,180,,can,1,ROP,24 cans/case,24.0,Supermarket,15.0
+RM-SP01,Black pepper,Spices & Oils,730,,oz,3,REDLINE,5 lb jug,80.0,Supermarket / Amazon,132.4
+RM-SP02,Cumin,Spices & Oils,730,,oz,3,ROP,5 lb jug,80.0,Supermarket / Amazon,101.5
+RM-SP03,Oregano,Spices & Oils,730,,oz,3,ROP,2 lb jug,32.0,Supermarket / Amazon,39.4
+RM-SP04,Paprika,Spices & Oils,730,,oz,3,ROP,5 lb jug,80.0,Supermarket / Amazon,73.7
+RM-SP05,Garlic powder,Spices & Oils,730,,oz,3,ROP,5 lb jug,80.0,Supermarket / Amazon,85.9
+RM-SP06,Onion powder,Spices & Oils,730,,oz,3,ROP,5 lb jug,80.0,Supermarket / Amazon,128.7
+RM-SP07,Bay leaves,Spices & Oils,730,,oz,3,REDLINE,1 lb tub,16.0,Supermarket / Amazon,19.2
+RM-SP08,Vegetable oil,Spices & Oils,180,,fl oz,2,ROP,35 lb jug (jug-in-box),560.0,Supermarket / Wholesale,15.0
+RM-SP09,Olive oil,Spices & Oils,365,,fl oz,2,ROP,4 x 1 gal case,512.0,Supermarket / Wholesale,205.0
+RM-SP10,Vinegar,Spices & Oils,730,,fl oz,2,REDLINE,4 x 1 gal case,512.0,Supermarket / Wholesale,569.9
+RM-PK01,Cake boxes,Packaging Supplies,730,,piece,4,TWOBIN,100 count bundle,100.0,Amazon / Wholesale,159.0
+RM-PK02,Pastry boxes,Packaging Supplies,730,,piece,4,TWOBIN,250 count bundle,250.0,Amazon / Wholesale,3.0
+RM-PK03,Bakery bags,Packaging Supplies,730,,piece,4,TWOBIN,500 count bundle,500.0,Amazon / Wholesale,566.0
+RM-PK04,Hot cups (12 oz),Packaging Supplies,730,,piece,4,ROP,"1,000 count case",1000.0,Amazon / Wholesale,77.0
+RM-PK05,Cold cups (16 oz),Packaging Supplies,730,,piece,4,ROP,"1,000 count case",1000.0,Amazon / Wholesale,1659.0
+RM-PK06,Lids (Universal),Packaging Supplies,730,,piece,4,ROP,"1,000 count case",1000.0,Amazon / Wholesale,160.0
+RM-PK07,Napkins,Packaging Supplies,730,,piece,3,TWOBIN,"6,000 count case",6000.0,Amazon / Wholesale,9743.0
+RM-PK08,Disposable utensils,Packaging Supplies,730,,piece,3,TWOBIN,"1,000 count case",1000.0,Amazon / Wholesale,1073.0
+RM-PK09,Soup containers,Packaging Supplies,730,,piece,4,ROP,500 count case,500.0,Amazon / Wholesale,545.0
+RM-PK10,Wax paper,Packaging Supplies,730,,sheet,3,TWOBIN,12 x 500 sheet case,6000.0,Amazon / Wholesale,2111.0
+RM-PK11,Labels,Packaging Supplies,730,,piece,3,ROP,"5,000 roll",5000.0,Amazon,7786.0
+RM-ES01,Espresso beans,Espresso Station,60,,oz,3,ROP,5 lb bag (80 oz),80.0,Amazon / Roaster,8.3
+RM-ES02,Decaf coffee beans,Espresso Station,60,,oz,3,ROP,5 lb bag (80 oz),80.0,Amazon / Roaster,54.9
+RM-ES03,Espresso cups (4 oz),Espresso Station,730,,piece,4,ROP,"1,000 count case",1000.0,Amazon,1565.0
+RM-ES04,Coffee filters,Espresso Station,730,,piece,3,TWOBIN,500 count box,500.0,Amazon,328.0
+RM-ES05,Half-and-half,Espresso Station,21,,fl oz,1,P,12 x 32 fl oz case,384.0,Supermarket,315.3
+RM-ES06,Oat milk,Espresso Station,90,,fl oz,2,ROP,12 x 32 fl oz case,384.0,Supermarket / Amazon,528.1
+RM-ES07,Soy milk,Espresso Station,90,,fl oz,2,ROP,12 x 32 fl oz case,384.0,Supermarket / Amazon,531.4
+RM-ES08,Whipped cream,Espresso Station,30,,can,1,ROP,12 x 15 oz aerosol,180.0,Supermarket,84.0
+RM-ES09,Caramel syrup,Espresso Station,365,,fl oz,3,ROP,4 x 750 ml case,101.4,Amazon,169.8
+RM-ES10,Vanilla syrup,Espresso Station,365,,fl oz,3,ROP,4 x 750 ml case,101.4,Amazon,54.6
+RM-ES11,Hazelnut syrup,Espresso Station,365,,fl oz,3,ROP,4 x 750 ml case,101.4,Amazon,121.4
+RM-ES12,Sugar packets,Espresso Station,730,,packet,1,TWOBIN,"2,000 count case",2000.0,Supermarket / Wholesale,1799.0
+RM-ES13,Artificial sweetener,Espresso Station,730,,packet,2,TWOBIN,"1,000 count box",1000.0,Supermarket / Amazon,1011.0
+RM-ES14,Hot chocolate mix,Espresso Station,365,,oz,2,ROP,6 x 2 lb tub case,192.0,Supermarket / Amazon,191.8
+RM-BP01,Powdered gelatin,Bakery Production,365,,oz,3,ROP,5 lb tub,80.0,Amazon / Wholesale,48.2
+RM-BP02,Cream of tartar,Bakery Production,730,,oz,3,REDLINE,5 lb tub,80.0,Amazon,107.0
+RM-BP03,Brownie mix ingredients,Bakery Production,180,,lb,2,ROP,50 lb bag,50.0,Wholesale / Supermarket,32.8
+RM-BP04,Almond flour,Bakery Production,90,,lb,3,ROP,25 lb box,25.0,Amazon / Wholesale,36.5
+RM-BP05,Coconut flakes,Bakery Production,180,,lb,2,ROP,10 lb box,10.0,Supermarket / Amazon,0.2
+RM-BP06,Pecans,Bakery Production,90,,lb,2,ROP,5 lb bag,5.0,Supermarket / Amazon,2.8
+RM-BP07,Sliced almonds,Bakery Production,90,,lb,2,ROP,5 lb bag,5.0,Supermarket / Amazon,8.2
+RM-BP08,Raisins,Bakery Production,180,,lb,2,ROP,10 lb box,10.0,Supermarket / Wholesale,8.6
+RM-BP09,Sprinkles & decor,Bakery Production,365,,oz,3,ROP,Assorted tubs,64.0,Amazon,91.8
+RM-BP10,Food coloring,Bakery Production,730,,oz,3,REDLINE,Set of 12 bottles,12.0,Amazon,13.7
+RM-BP11,Edible image sheets,Bakery Production,180,,sheet,3,MTO,24 sheet pack,24.0,Amazon,8.0
+RM-BP12,Parchment paper,Bakery Production,730,,sheet,3,TWOBIN,"1,000 sheet case",1000.0,Amazon / Wholesale,1520.0
+RM-CO01,Disposable gloves,Cleaning & Ops,730,,pair,2,TWOBIN,10 x 100 ct case,1000.0,Amazon / Wholesale,690.0
+RM-CO02,Aluminum foil,Cleaning & Ops,730,,roll,1,TWOBIN,2 x 500 ft roll box,2.0,Supermarket / Wholesale,3.0
+RM-CO03,Plastic wrap,Cleaning & Ops,730,,roll,1,TWOBIN,"2 x 2,000 ft roll box",2.0,Supermarket / Wholesale,1.0
+RM-CO04,Storage containers,Cleaning & Ops,730,,piece,3,REDLINE,12 pack sets,12.0,Amazon / Wholesale,20.0
+RM-CO05,Sanitizing wipes,Cleaning & Ops,365,,canister,2,TWOBIN,6 x 160 wipe canister,6.0,Amazon / Wholesale,10.0
+RM-CO06,Dish soap,Cleaning & Ops,730,,fl oz,1,TWOBIN,4 x 1 gal case,512.0,Supermarket / Wholesale,325.0
+RM-CO07,Paper towels,Cleaning & Ops,730,,roll,1,TWOBIN,12 x 250 sheet case,12.0,Supermarket / Wholesale,8.0
+RM-CO08,Label printer rolls,Cleaning & Ops,730,,roll,3,TWOBIN,10 roll pack,10.0,Amazon,13.0
