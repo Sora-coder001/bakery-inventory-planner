@@ -2,6 +2,9 @@
 
 Weekly and daily purchase planning for a café, built on top of the team's demand forecast.
 
+It runs every morning on GitHub Actions and writes its results into Supabase, where the admin portal
+reads them.
+
 The client is anonymous. No business name, location, staff names or contact details appear here.
 The raw materials, recipes, suppliers and stock levels in `planner_data/` are illustrative values
 written for the project, not the client's own figures.
@@ -109,11 +112,15 @@ Written to `planner_output/` as CSV, or to the database as `planner_<name>` tabl
 
 These files are git-ignored, because they contain the client's demand figures.
 
-| Output | Contents |
-|---|---|
-| `dashboard.html` | The page for the admin site: by product, then by ingredient. |
-| `product_need_next_week.csv` | Per product: how much of each ingredient it needs next week, low / base / high. |
-| `ingredient_need_next_week.csv` | Per material: need next week, stock on hand, class, and packs to buy. |
+| Output | Database table | CSV file |
+|---|---|---|
+| The page for the admin site: by product, then by ingredient | `planner_dashboard` (one HTML row) | `dashboard.html` |
+| Per product: how much of each ingredient it needs next week, low / base / high | `planner_product_need_next_week` | `product_need_next_week.csv` |
+| Per material: need next week, stock on hand, class, and packs to buy | `planner_ingredient_need_next_week` | `ingredient_need_next_week.csv` |
+
+In database mode the three tables are written and no CSV files are produced; without a database it is the
+other way round. Each table keeps a `run_date`, so a run replaces that day's rows and earlier runs stay as
+history. Row-level security is enabled on all three.
 
 ---
 
@@ -236,8 +243,6 @@ Taken from the `Recommended Inventory Policy` column of the raw material master.
   until the next Monday count. For ciabatta and croissants, with a 3-day life, part of that order expires
   before it can be used, and the plan flags the waste rather than avoiding it. Fixing this means capping
   the order at what can be used before expiry.
-- **Database mode is untested.** The SQL path is written but has only been run against CSV copies of the
-  same tables.
 - **No feedback loop.** Actual usage, waste and stock-outs are not fed back to adjust the model.
 - **One location, one supplier per material.** No alternatives, substitutions or stock transfers.
 - **The dashboard needs inline scripts.** It is one self-contained file, so a site with a strict
