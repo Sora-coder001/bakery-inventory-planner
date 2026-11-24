@@ -19,7 +19,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install pandas numpy scipy sqlalchemy psycopg2-binary
+        run: pip install pandas numpy scipy sqlalchemy "psycopg[binary]" psycopg2-binary
 
       - name: Run the planner
         env:

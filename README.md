@@ -51,7 +51,7 @@ forecast (per product, per week)        current stock (per raw material)
 ## 2. Running it
 
 ```bash
-pip install pandas numpy scipy sqlalchemy psycopg2-binary
+pip install pandas numpy scipy sqlalchemy "psycopg[binary]" psycopg2-binary
 
 # CSV mode — reads planner_data/, writes planner_output/
 python inventory_planner.py
