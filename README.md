@@ -68,8 +68,12 @@ Useful environment variables:
 | `FORECAST_FILE` | `planner_data/live_forecast.csv` | Forecast file in CSV mode. |
 | `RUN_DATE` | today | Pretend the run is on another date, for testing. |
 
-Scheduled daily (times in the file's footer): cron at 06:00 local, or GitHub Actions at 11:00 UTC.
-Run it after the forecast and the stock counts are up to date.
+Scheduled daily by `.github/workflows/planner.yml`, at 11:00 UTC (06:00 in Indianapolis), after the
+forecast and the stock counts are up to date. It needs a `DATABASE_URL` repository secret: the Supabase
+pooler connection string from Settings - Database - Connection string. With that set, each run writes
+`planner_product_need_next_week`, `planner_ingredient_need_next_week` and `planner_dashboard` (the page
+itself) back to Supabase, replacing that day's rows and keeping earlier runs as history. The CSV files
+are only produced when no database is configured.
 
 ### Settings at the top of the script
 
